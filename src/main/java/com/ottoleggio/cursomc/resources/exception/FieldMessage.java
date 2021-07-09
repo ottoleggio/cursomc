@@ -17,12 +17,12 @@ public class FieldMessage implements Serializable {
 		this.message = message;
 	}
 
-	public String getFiledName() {
+	public String getFieldName() {
 		return fieldName;
 	}
 
-	public void setFiledName(String filedName) {
-		this.fieldName = filedName;
+	public void setFieldName(String fieldName) {
+		this.fieldName = fieldName;
 	}
 
 	public String getMessage() {
@@ -32,6 +32,7 @@ public class FieldMessage implements Serializable {
 	public void setMessage(String message) {
 		this.message = message;
 	}
+
 	
 	
 	
