@@ -1,13 +1,16 @@
 package com.ottoleggio.cursomc.dto;
 
 import java.io.Serializable;
+
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotEmpty;
 
 import org.hibernate.validator.constraints.Length;
 
 import com.ottoleggio.cursomc.domain.Cliente;
+import com.ottoleggio.cursomc.services.validation.ClienteUpdate;
 
+@ClienteUpdate
 public class ClienteDTO implements Serializable {
 	private static final long serialVersionUID = 1L;
 	
